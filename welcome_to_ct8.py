@@ -24,7 +24,9 @@ print(r" \_____\____/|_|  |_|_|         |_|  |_|  |_|_____|_| \_|_|\_\_____|_| \
 print(f"This codespace belongs to {name}")
 print("\n\n")
                                                                                           
-                                                                                          
-                                  
-print("Now it's your turn:")
-print("Find this line (line 30) in the welcome_to_ct8.py file, then change the message to say a fact about you.")                                  
+print("I like to play sports, especially basketball.")
+print("I play trumpet.")            
+print("I can also speak Swedish.") 
+print("Two of these are true. Guess which is a lie.")                                                                                                               
+input()                               
+print("I can't speak Swedish! That was a lie. I can actually speak Spanish")
