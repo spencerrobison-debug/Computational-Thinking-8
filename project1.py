@@ -11,11 +11,19 @@ if time1 == "1 hour":
     print("Seems awfully long")
 else:
     print(f"Ok,{time1} seems ok")
-cookingoil1 = input("What cooking oil do you want to use - vegetable oil, olive oil, or canola oil?")
+cookingoil1 = input("What cooking oil do you want to use - vegetable oil, olive oil, canola oil, or none?")
 print("Next up, you're gonna want a side to go with your main")
 food2 = input(f"Pick something small that would taste good with {food1}")
-print("Now that you have your side, you're going to need a vessell for it.")
-foodvessell2 = input("What will you cook your side in?")
+print("Now that you have your side, you're going to need a vessel for it.")
+foodvessel2 = input("What will you cook your side in?")
+cookingoil2 = input("With what oil?")
+time2 = input("And for how long")
+if time2 == "30 minutes": 
+    print("Maybe a little long, but ok")
+else:
+    print("Ok then")
+print(f"Here's your meal: {food1}, in a {foodvessel1}, made with {cookingoil1}, cooked for {time1}.")
+print(f"To go with that, you have {food2}, in a {foodvessel2}, with {cookingoil2}, cooked for {time2}.")
 
 
 
