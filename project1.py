@@ -24,6 +24,7 @@ else:
     print("Ok then")
 print(f"Here's your meal: {food1}, in a {foodvessel1}, made with {cookingoil1}, cooked for {time1}.")
 print(f"To go with that, you have {food2}, in a {foodvessel2}, with {cookingoil2}, cooked for {time2}.")
+print("Bon appetit!")
 
 
 
